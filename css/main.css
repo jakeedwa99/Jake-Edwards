@@ -6,7 +6,7 @@ html,body {
   background: linear-gradient(
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
-    ), url('https://images.unsplash.com/photo-1494825514961-674db1ac2700?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80') no-repeat center center fixed;
+    ), url('https://images.unsplash.com/photo-1514051833173-b3c9c9feb26a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -23,12 +23,30 @@ html,body {
 
 h1{
 font-family: 'Major Mono Display', monospace;
+font-size: 50px;
 }
 
 p1{
   font-family: 'Montserrat', sans-serif;
 }
 
-button is-white is-outlined{
-  padding:10px;
+.button{
+  padding:15px;
+}
+
+.is-outlined{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.title{
+  font-size: 50px;
+  color: #81ecec
+}
+
+.fa-tree{
+  font-size:50px;
+  padding-top:10px;
+  padding-left:10px;
+  color: #01796f;
 }
